@@ -29,6 +29,7 @@ The dataset used for this project is a comprehensive set of automotive records s
 The project uses two primary models to predict used car prices:
 1. Extra Trees Regressor: Identifies key factors that influence the selling price.
 2. Random Forest Regressor: Provides robust and accurate price predictions by averaging multiple decision trees, reducing overfitting.
+
 Key components include:
   * Hyperparameter Tuning: Parameters such as n_estimators, max_depth, min_samples_split, and min_samples_leaf were fine-tuned to optimize model performance.
   * Feature Selection: Key attributes like current price, car age, fuel type, and transmission type were identified as significant predictors.
