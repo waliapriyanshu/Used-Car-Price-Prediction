@@ -31,8 +31,8 @@ The project uses two primary models to predict used car prices:
 2. Random Forest Regressor: Provides robust and accurate price predictions by averaging multiple decision trees, reducing overfitting.
 
 Key components include:
-  * Hyperparameter Tuning: Parameters such as n_estimators, max_depth, min_samples_split, and min_samples_leaf were fine-tuned to optimize model performance.
-  * Feature Selection: Key attributes like current price, car age, fuel type, and transmission type were identified as significant predictors.
+   * Hyperparameter Tuning: Parameters such as n_estimators, max_depth, min_samples_split, and min_samples_leaf were fine-tuned to optimize model performance.
+   * Feature Selection: Key attributes like current price, car age, fuel type, and transmission type were identified as significant predictors.
 
 **Loss Functions:**
 The models were evaluated using Mean Absolute Error (MAE) and Mean Squared Error (MSE) to ensure accurate predictions.
